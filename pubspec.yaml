@@ -1,6 +1,6 @@
 name: search_algorithms_dart
 description:  A Dart package providing various search algorithms and a quick sort utility for sorting lists of strings. Includes implementations of linear search, binary search, and jump search.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/Isfandiyor-Dev/search_algorithms.git
 
 environment:
