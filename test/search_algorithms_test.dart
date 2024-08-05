@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:search_algorithms/search_algorithms.dart'; // O'zingizning paket yo'lingizni kiriting
+import 'package:search_algorithms_dart/search_algorithms.dart'; // O'zingizning paket yo'lingizni kiriting
 
 void main() {
   group('SearchAlgorithms', () {

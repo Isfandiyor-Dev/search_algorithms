@@ -1,4 +1,4 @@
-import 'package:search_algorithms/search_algorithms.dart';
+import 'package:search_algorithms_dart/search_algorithms.dart';
 
 void main() {
   // Linear search example. List does not need to be sorted.

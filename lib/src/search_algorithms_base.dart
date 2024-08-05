@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:search_algorithms/utils/quick_sort.dart';
+import 'package:search_algorithms_dart/utils/quick_sort.dart';
 
 class SearchAlgorithms {
   // Linear search: searches the list sequentially for the target element.
