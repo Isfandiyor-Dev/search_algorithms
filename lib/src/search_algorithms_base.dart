@@ -1,8 +1,11 @@
 import 'dart:math';
 import 'package:search_algorithms_dart/utils/quick_sort.dart';
 
+/// A class that provides various search algorithms.
 class SearchAlgorithms {
-  // Linear search: searches the list sequentially for the target element.
+  /// Linear search: searches the list sequentially for the target element.
+  ///
+  /// Returns the index of the target element if found, otherwise -1.
   static int linearSearch(List<String> list, String target) {
     for (int i = 0; i < list.length; i++) {
       if (list[i] == target) {
@@ -12,8 +15,11 @@ class SearchAlgorithms {
     return -1; // Element not found, return -1
   }
 
-  // Binary search: searches the list using divide and conquer approach.
-  // List must be sorted. If not sorted, set isSorted to false and it will sort the list first.
+  /// Binary search: searches the list using divide and conquer approach.
+  ///
+  /// The list must be sorted. If not sorted, set [isSorted] to false and it will sort the list first.
+  ///
+  /// Returns the index of the target element if found, otherwise -1.
   static int binarySearch({
     required List<String> list,
     required String target,
@@ -42,8 +48,11 @@ class SearchAlgorithms {
     return -1; // Element not found, return -1
   }
 
-  // Jump search: searches the list by jumping ahead by a fixed step size.
-  // List must be sorted. If not sorted, set isSorted to false and it will sort the list first.
+  /// Jump search: searches the list by jumping ahead by a fixed step size.
+  ///
+  /// The list must be sorted. If not sorted, set [isSorted] to false and it will sort the list first.
+  ///
+  /// Returns the index of the target element if found, otherwise -1.
   static int jumpSearch({
     required List<String> list,
     required String target,

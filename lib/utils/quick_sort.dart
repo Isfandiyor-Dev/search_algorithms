@@ -1,6 +1,10 @@
 import 'dart:math';
 
+/// An extension on [List] that provides a quick sort algorithm.
 extension QuickSortString on List<String> {
+  /// Sorts the list using the QuickSort algorithm.
+  ///
+  /// Returns a new sorted list.
   List<String> quickSort() {
     if (length < 2) {
       return this;
@@ -23,4 +27,3 @@ extension QuickSortString on List<String> {
     }
   }
 }
-
